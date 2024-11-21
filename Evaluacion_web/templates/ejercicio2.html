@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="../static/estilos.css">
+</head>
+<body class="body">
+    <div>
+        <div class="enlaces_segundarios">
+            <div class="logo">
+                <a class="a" href="\">
+                   <h2>Planet Assistance APP</h2>
+                </a>
+            </div>
+
+            <div class="enlaces_segundarios-subenlace">
+                <a class="funcionamiento" href="funcionamiento">Sobre esta aplicación</a>
+            </div>
+            <div class="enlaces_segundarios-subenlace">
+                <a class="funcionamiento" href="contactanos">contactanos</a>
+            </div>
+            <div class="enlaces_segundarios-subenlace">
+                <a class="funcionamiento" href="ejercicio1">ejercicio 1</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        <div class="titulo">
+           <h1>Iniciar sesión</h1>
+        </div>
+
+        <div class="formulario">
+            <form method="POST" action="/ejercicio2">
+                <div class="formulario-segundario">
+                    <div class="formulario-segundario-1">
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" id="usuario" name="usuario" required>
+                        <br><br>
+                    </div>
+                    <div class="formulario-segundario-1">
+                        <label for="contrasena">Contraseña:</label>
+                        <input type="password" id="contrasena" name="contrasena" required>
+                        <br><br>
+                    </div>
+
+                </div>
+
+                <button class="boton" type="submit">Entrar</button>
+            </form>
+        </div>
+
+    </div>
+
+    <div>
+        {% if mensaje %}
+            <p>{{ mensaje }}</p>
+        {% endif %}
+    </div>
+
+    <div class="enunciado2">
+        <h1>Making the World easy</h1>
+    </div>
+
+</body>
+
+<footer class="footer">
+    <p>Shadows - Todos los derechos reservados-</p>
+</footer>
+</html>

@@ -1,0 +1,172 @@
+/* Body*/
+.body {
+    background-image: url("../static/imagenes/fondo_bicolor.webp");
+    background-size: cover;
+}
+
+/*Enlaces segundarios*/
+.enlaces_segundarios {
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    /*background-color: yellowgreen;*/
+}
+.enlaces_segundarios-subenlace {
+    padding-top: 3%;
+}
+.orden-funcionamiento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.funcionamiento {
+    color:  white;
+    text-decoration: none;
+}
+
+.imagen {
+    background-image: url("../static/imagenes/screenshot1.png");
+    background-size: cover;
+    margin-left: 40px;
+
+}
+.imagen2 {
+    background-image: url("../static/imagenes/screenshot2.png");
+    background-size: cover;
+    margin-left: 40px;
+}
+.imagen3 {
+    background-image: url("../static/imagenes/screenshot3.png");
+    background-size: cover;
+    margin-left: 40px;
+}
+.imagen4 {
+    background-image: url("../static/imagenes/screenshot4.png");
+    background-size: cover;
+    margin-left: 40px;
+}
+.margenes {
+    margin: 5%;
+}
+.ejemplo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Links principales*/
+.ejercicios {
+    margin: 15% 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: xx-large;
+}
+.ejercicio1 {
+    padding: 18% 6%;
+    background-color: darkviolet;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+}
+.ejercicio2 {
+    padding: 18% 6%;
+    background-color: forestgreen;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+}
+
+.enunciado_index {
+    color: white;
+    text-align: center;
+    margin-top: 19%;
+}
+.enunciado {
+    color: white;
+    text-align: center;
+    margin-top: 23%;
+}
+
+.enunciado2 {
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+}
+
+/* ejercicios 1 y 2*/
+
+.titulo {
+    color: white;
+    text-align: center;
+}
+.formulario {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.formulario-segundario-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2%;
+}
+.icons {
+    text-align: left;
+    color: white;
+    margin-bottom: 12%;
+}
+.icons-segundarios {
+    margin: 40px;
+}
+/*Nosotros*/
+.nosotros {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.nosotros-margenes {
+    text-align: center;
+    margin-bottom: 43%;
+}
+
+.examen {
+    background-image: url("../static/imagenes/fondoexamen1.jpg");
+    background-size: cover;
+}
+.examen2 {
+    background-image: url("../static/imagenes/fondoexamen2.jpg");
+    background-size: cover;
+}
+.examen3 {
+    background-image: url("../static/imagenes/fondoexamen3.jpg");
+    background-size: cover;
+}
+
+/*hover*/
+.funcionamiento:hover {
+     text-shadow: 0px 0px 4px #ffffff; /* Resplandor blanco */
+}
+.a:hover {
+    color: darkviolet;
+}
+.boton:hover {
+    background-color: grey;
+    color: white;
+}
+.ejercicios_enlaces:hover {
+     text-shadow: 0px 0px 4px #ffffff; /* Resplandor blanco */
+}
+.ejercicio1:hover {
+    border-radius: 0px;
+}
+.ejercicio2:hover {
+    border-radius: 0px;
+}
+/* Footer*/
+.footer {
+    margin-top: 2%;
+}
